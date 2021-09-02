@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Dream Audio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Dream Audio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    <!-- EXERCISE 1
+        Create a Jumbotron section with a quick explanation / image of the website.
+        Make it appear with a fade-in animation effect when the page loads.
+    -->
+
+    <h1>Exercise 1</h1>
+
+    <div id="jumbotron" class="jumbotron">
+      <h1 class="display-4" style="text-align: left;">Dream Audio</h1>
+      <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" width="500px">
+      <hr class="my-4">
+      <p>This is a music website.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Click here</a>
+    </div>
+
+    <!-- EXERCISE 2
+        Use a Bootstrap Card to contain every album in the favorite list you previously created.
+        Use the elements of a card bootstrap provides you with to display nicely the album informations such as: album title, artist, year, etc..
+    -->
+
+     <!-- EXERCISE 3
+        Foreach album in the favorite list, place a badge on the top-left corner of the album with the genre of the music
+    -->
+
+    <h1>Exercise 2 & 3</h1>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/45/Divide_cover.png" class="card-img-top">
+            <span class="badge badge-primary">Pop</span>
+            <div class="card-body">
+              <h5 class="card-title">Divide</h5>
+          <p class="card-text">by Ed Sheeran</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/3f/Night_Visions_Album_Cover.jpeg" class="card-img-top">
+            <span class="badge badge-primary">Rock</span>
+            <div class="card-body">
+              <h5 class="card-title">Night Visions</h5>
+          <p class="card-text">by Imagine Dragons</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Rag%27n%27Bone_Man_-_Life_by_Misadventure.png" class="card-img-top">
+            <span class="badge badge-primary">Pop</span>
+            <div class="card-body">
+              <h5 class="card-title">Life by Misadventure</h5>
+          <p class="card-text">by Rag'n'Bone Man</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+          <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d0/Alt-J_-_An_Awesome_Wave.png" class="card-img-top">
+            <span class="badge badge-primary">Indie</span>
+            <div class="card-body">
+              <h5 class="card-title">An Awesome Wave</h5>
+          <p class="card-text">by alt-J</p>
+          <a href="#" class="btn btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- EXERCISE 4
+        Create a new section with an album tracklist inside a Bootstrap table.
+        The row colors of the table must be alternated.
+
+        There should be a column for the track order number, one for the title and one for the track duration.
+        (If you want, you can also add extra columns)
+    -->
+
+     <!-- EXERCISE 5
+        Add a DELETE bootstrap button at the end of each row of the tracklist. 
+        Attach the functionality to remove its row when it gets clicked. (Requires DOM manipulation)  
+-->
+
+    <h1 id="myHeading" >Exercise 4 & 5</h1>
+
+    <h4>Life by Misadventure (Tracklist)</h4>
+
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">Order</th>
+          <th scope="col">Title</th>
+          <th scope="col">Duration</th>
+          <th scope="col">Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="firstColumn">
+          <th scope="row">#93746</th>
+          <td>Skin</td>
+          <td>3:06</td>
+          <td>
+            <button onclick="removeFirst()" type="button" class="btn btn-danger"></button>
+          </td>
+        </tr>
+        <tr id="secondColumn" >
+          <th scope="row">#95615</th>
+          <td>Human</td>
+          <td>3:15</td>
+          <td>
+            <button onclick="removeSecond()" type="button" class="btn btn-danger"></button>
+          </td>
+        </tr>
+        <tr id="thirdColumn">
+          <th scope="row">#95647</th>
+          <td>Grace</td>
+          <td>3:22</td>
+          <td>
+            <button onclick="removeThird()" type="button" class="btn btn-danger"></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h1>Exercise 6 & 7</h1>
+
+    <!-- EXERCISE 6
+        Add an "Add Track" button under the tracklist of the album. 
+        It should have a nice shadow transition when its hovered (with the box-shadow property) 
+        to look like as if the button was elevating itself.
+    -->
+
+    <button id="addTrack">Add Track</button>
+
+    <!-- EXERCISE 7
+        On the click of "Add Track" button, a modal should appear.
+        (check in the documentation the modal + button example)
+        
+        The modal shall contain single input fields (avoid using a <form> to wrap the inputs) with:
+        - Track number
+        - Track title
+        - Track duration
+
+        The fields should be inside an Input Group and divided in 2 columns.
+    -->
+
+    
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<script src="myscript.js"></script>
+
+  </body>
+</html>

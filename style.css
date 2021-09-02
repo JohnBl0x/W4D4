@@ -1,0 +1,51 @@
+
+h1, h4 {
+    text-align: center;
+    padding: 20px;
+}
+
+#jumbotron {
+    animation: fadeInAnimation ease 4s;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+button {
+    height: 20px;
+    padding: 0;
+    background-color: red;
+    width: 20px;
+    color: white;
+}
+
+#firstColumn, #thirdColumn {
+    background-color: darkslategray;
+}
+
+#addTrack {
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+#addTrack:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px black;
+    background-color: limegreen;
+}
+
